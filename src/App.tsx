@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {PlacesAccordion} from "./components /placesAccordion/PlacesAccordion";
+import {ItemList} from "./components /itemList/ItemList";
+import styles from "./App.module.css"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const firebaseConfig = {
+    apiKey: "AIzaSyD6DnGbVfdJlDJ_pEOUfDfTDJrA8j3lIs8",
+    authDomain: "dv-inventory.firebaseapp.com",
+    databaseURL: "https://dv-inventory.firebaseio.com",
+    projectId: "dv-inventory",
+    storageBucket: "dv-inventory.appspot.com",
+    messagingSenderId: "130062240176",
+    appId: "1:130062240176:web:ecbca5d29b37d25c6cee75"
 }
-
-export default App;
+if (!window.firebase.apps.length) {
+    window.firebase.initializeApp(firebaseConfig)
+} else {
+    window.firebase.app()
+}
+function App() {
+    return (
+        <div className={styles.root}>
+            <PlacesAccordion />
+            <ItemList />
+        </div>
+    )
+}
+export default App

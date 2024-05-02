@@ -1,0 +1,32 @@
+.root {
+    border: 1px solid black;
+    border-radius: 20px;
+    min-height: 500px;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+
+.refresh {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,43 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.itemName {
+    text-transform: lowercase;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.count {
+    display: flex;
+    gap: 10px;
+}
+
+.count > div {
+    cursor: pointer;
+}
+
+.count > div:hover {
+    text-decoration: underline;
+}
+
+.controller {
+    display: flex;
+    gap: 5px;
+    padding-bottom: 6px;
+    height: 25px;
+}
+
+.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+#input {
+    width: 35px;
+}

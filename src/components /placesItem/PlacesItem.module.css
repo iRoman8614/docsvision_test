@@ -1,0 +1,32 @@
+.hidden {
+    display: none;
+}
+
+.active {
+    display: block;
+    margin-left: 15px;
+}
+
+.found {
+    display: block;
+    padding-left: 15px;
+    background-color: lightcoral;
+}
+
+.title {
+    cursor: pointer;
+    padding-bottom: 5px;
+    font-size: 22px;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
