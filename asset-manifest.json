@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/docsvision_test/static/css/main.cec33ae8.css",
+    "main.js": "/docsvision_test/static/js/main.dbb5af59.js",
+    "index.html": "/docsvision_test/index.html",
+    "main.cec33ae8.css.map": "/docsvision_test/static/css/main.cec33ae8.css.map",
+    "main.dbb5af59.js.map": "/docsvision_test/static/js/main.dbb5af59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cec33ae8.css",
+    "static/js/main.dbb5af59.js"
+  ]
+}
