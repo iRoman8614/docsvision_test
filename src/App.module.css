@@ -4,3 +4,25 @@
     grid-template-columns: repeat(2, 50%);
     gap: 30px;
 }
+
+
+@media screen and (max-width: 1250px) {
+    .root {
+        margin: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .root {
+        margin: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .root {
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
